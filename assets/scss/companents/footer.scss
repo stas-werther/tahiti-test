@@ -1,0 +1,37 @@
+.footer {
+    padding: 50px 0;
+    &__content {
+        gap: 20px;
+    }
+    &__menu {
+        h5 {
+            margin: 0;
+            font-family: "Gotham-Bold";
+            @include font-size(18, 15);
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--red-color);
+            margin-bottom: 20px;
+        }
+        ul {
+            margin: 0;
+            li {
+                list-style: none;
+                a {
+                    font-family: "Gotham - Light";
+                    font-weight: 300;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: normal;
+                    color: var(--red-color);
+                    opacity: .9;
+                }
+            }
+        }
+        &-soc {
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+        }
+    }
+}

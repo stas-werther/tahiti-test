@@ -1,0 +1,43 @@
+.hero {
+    background: rgb(0, 0, 0);
+    &__slider {
+        height: 100%;
+        &-wrapper {
+            position: relative;
+            img {
+                width: 100%;
+                opacity: 0.6;
+                min-height: 400px;
+                object-fit: cover;
+            }
+        }
+        &-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 5;
+            h1 {
+                margin: 0;
+                font-family: "Gotham-Light";
+                @include font-size(64, 30);
+                text-transform: uppercase;
+                color: var(--white-color);
+                margin-bottom: 40px;
+            }
+            span {
+                margin: 0;
+                font-family: "Gotham-Bold";
+                @include font-size(64, 30);
+                text-transform: uppercase;
+                color: var(--white-color);
+            }
+            p {
+                font-family: "Gotham-Light";
+                @include font-size (32, 22);
+                color: var(--white-color);
+            }
+        }
+    }
+}

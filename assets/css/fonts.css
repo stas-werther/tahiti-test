@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Gotham-Bold";
+    src: url("../fonts/Gotham-Bold.woff2");
+    src: local("☺"), url("../fonts/Gotham-Bold.woff") format("woff2"), url("../fonts/Gotham-Bold.ttf") format("truetype"), url("../fonts/Gotham-Bold.svg") format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham-Book";
+    src: url("../fonts/Gotham-Bold.woff2");
+    src: local("☺"), url("../fonts/Gotham-Book.woff") format("woff2"), url("../fonts/Gotham-Book.ttf") format("truetype"), url("../fonts/Gotham-Book.svg") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham-Light";
+    src: url("../fonts/Gotham-Bold.woff2");
+    src: local("☺"), url("../fonts/Gotham-Light.woff") format("woff2"), url("../fonts/Gotham-Light.ttf") format("truetype"), url("../fonts/Gotham-Light.svg") format("svg");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham-BookItalic";
+    src: url("../fonts/Gotham-Bold.woff2");
+    src: local("☺"), url("../fonts/Gotham-BookItalic.woff") format("woff2"), url("../fonts/Gotham-BookItalic.ttf") format("truetype"), url("../fonts/Gotham-BookItalic.svg") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GothamNarrSSm-BookItalic";
+    src: url("../fonts/GothamNarrSSm-BookItalic.woff2");
+    src: local("☺"), url("../fonts/GothamNarrSSm-BookItalic.woff") format("woff2"), url("../fonts/GothamNarrSSm-BookItalic.ttf") format("truetype"), url("../fonts/GothamNarrSSm-BookItalic.svg") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
